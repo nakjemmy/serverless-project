@@ -1,0 +1,24 @@
+{
+    "backend/serverless.yml": {
+        "functions": {
+            "UpdateTodo": {
+                "Tests": {
+                    "test 1": {
+                        "key1": "value1",
+                        "key2": "value2",
+                        "key3": "value3"
+                    }
+                }
+            },
+            "GetTodos": {
+                "Tests": {
+                    "test 1": {
+                        "key1": "value1",
+                        "key2": "value2",
+                        "key3": "value3"
+                    }
+                }
+            }
+        }
+    }
+}
